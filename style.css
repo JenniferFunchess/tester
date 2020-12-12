@@ -1,0 +1,9 @@
+.background {
+  background-image: url("./images/christmas1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  margin-left: 5px;
+}
