@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Materialize Example</title>
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="red">
+      <div class="nav-wrapper" id="navbar">
+        <a href="#" class="brand-logo" id="logo">HJ</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container" id="recieverPage">
+      <div class="row">
+        <div class="col s6">
+          <div class="row">
+            <div class="container" id="receiverForm">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input
+                      placeholder="Full Name"
+                      id="receiverName"
+                      type="text"
+                      class="validate"
+                    />
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="receiverAddress" type="text" class="validate" />
+                    <label for="giverAddress">Adress</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="receiverGiftOne" type="text" class="GiftOne" />
+                    <label>Gift 1</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="receiverGiftTwo" type="text" class="GiftOne" />
+                    <label>Gift 2</label>
+                  </div>
+                </div>
+                <div class="input-field col s12">
+                  <input id="receiverGiftThree" type="text" class="GiftOne" />
+                  <label>Gift 3</label>
+                </div>
+                <a
+                  class="waves-effect waves-light btn-large"
+                  id="receiverSubmitButton"
+                  >Submit</a
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="recieverData">
+          <div class="col s6">
+            <div class="row" id="inputBackground">
+              <div class="col s12">
+                <div class="card green darken-1">
+                  <div class="card-content white-text" id="receiverDataForm">
+                    <span class="card-title" id="dataName">Name Here</span>
+                    <p id="dataAddress">Address</p>
+                    <p id="dataGiftOne">Gift 1 example</p>
+                    <p id="dataGiftTwo">Gift 2 example</p>
+                    <p id="dataGiftThree">Gift 3 example</p>
+                  </div>
+                  <div class="card-action" id="inputReceiver">
+                    <a
+                      class="waves-effect waves-teal btn-flat"
+                      id="receiverUpdateButton"
+                      >Update</a
+                    >
+                    <a
+                      class="waves-effect waves-teal btn-flat"
+                      id="receiverDeleteButton"
+                      >Delete</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
